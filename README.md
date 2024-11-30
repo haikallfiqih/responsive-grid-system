@@ -1,9 +1,9 @@
-![Responsive Grid System Banner](https://github.com/haikalfiqih/responsive-grid-system/raw/master/banner.png)
+![Responsive Grid System Banner](https://github.com/haikallfiqih/responsive-grid-system/blob/main/src/rgs.png)
 
 
 # Responsive Grid System
 
-A lightweight, modern, and flexible grid system for creating responsive layouts with beautiful gradients and smooth animations.
+A lightweight, modern, and flexible grid system for creating responsive layouts.
 
 ## ✨ Features
 
