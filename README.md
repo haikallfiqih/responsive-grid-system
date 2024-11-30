@@ -3,7 +3,7 @@
 
 # Responsive Grid System
 
-A lightweight, modern, and flexible grid system built with vanilla JavaScript and CSS. No dependencies, no frameworks required - just pure, efficient code for creating responsive layouts.
+A lightweight, modern, and flexible CSS grid system for creating responsive layouts with vanilla JavaScript and CSS.
 
 ## ✨ Features
 
