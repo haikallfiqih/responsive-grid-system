@@ -3,7 +3,7 @@
 
 # Responsive Grid System
 
-A lightweight, modern, and flexible grid system for creating responsive layouts.
+A lightweight, modern, and flexible grid system built with vanilla JavaScript and CSS. No dependencies, no frameworks required - just pure, efficient code for creating responsive layouts.
 
 ## ✨ Features
 
@@ -11,13 +11,28 @@ A lightweight, modern, and flexible grid system for creating responsive layouts.
 - 🔄 Responsive breakpoints (xs, sm, md, lg, xl)
 - 📱 Auto-width columns that adapt to content
 - 🎨 Custom column spans with precise control
-- 🔌 Framework-agnostic (works with any JS framework)
+- 🌐 Built with vanilla JavaScript and CSS - no dependencies
+- 🔌 Framework-agnostic (works with any JS framework or none at all)
+- 🪶 Lightweight and performant
 - 🛠 Highly customizable
+
+## 🔧 Tech Stack
+
+- **JavaScript**: Pure vanilla JavaScript with no dependencies
+- **CSS**: Modern CSS features including Flexbox and Grid
+- **Build Size**: Lightweight, < 10KB minified and gzipped
+- **Browser Support**: All modern browsers (Chrome, Firefox, Safari, Edge)
 
 ## 📦 Installation
 
 ```bash
-npm install responsive-grid-system
+npm install @haikallfiqih/responsive-grid-system
+```
+
+Or include directly in your HTML:
+
+```html
+<script src="https://unpkg.com/@haikallfiqih/responsive-grid-system@1.0.0/src/grid-system.js"></script>
 ```
 
 ## 🚀 Quick Start
