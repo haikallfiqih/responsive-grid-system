@@ -1,5 +1,5 @@
 {
-  "name": "responsive-grid-system",
+  "name": "@haikallfiqih/responsive-grid-system",
   "version": "1.0.0",
   "description": "A lightweight, modern, and flexible grid system for creating responsive layouts",
   "main": "src/grid-system.js",
