@@ -1,6 +1,6 @@
 {
   "name": "@haikallfiqih/responsive-grid-system",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight, modern, and flexible CSS grid system for creating responsive layouts with vanilla JavaScript and CSS",
   "main": "src/grid-system.js",
   "scripts": {
