@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Grid System Demo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: #2d3436;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2d3436;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2d3436;
+            font-size: 1.8rem;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            padding-left: 0.5rem;
+            border-left: 4px solid #6c5ce7;
+        }
+
+        .demo-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .demo-box {
+            background: linear-gradient(135deg, #a8c0ff 0%, #3f2b96 100%);
+            color: white;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .demo-box:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .auto .demo-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+
+        .span-box .demo-box {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+        }
+
+        .responsive-box .demo-box {
+            background: linear-gradient(135deg, #b721ff 0%, #21d4fd 100%);
+        }
+
+        .container {
+            background: rgba(255,255,255,0.5);
+            border-radius: 8px;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Grid System Demo</h1>
+
+    <div class="demo-section">
+        <h2>Basic Grid Layout</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col md6">
+                    <div class="demo-box">Column (md6)</div>
+                </div>
+                <div class="col md6">
+                    <div class="demo-box">Column (md6)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="demo-section">
+        <h2>Auto-width Columns</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col auto">
+                    <div class="demo-box">Auto Width</div>
+                </div>
+                <div class="col auto">
+                    <div class="demo-box">Auto Width</div>
+                </div>
+                <div class="col auto">
+                    <div class="demo-box">Auto Width</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="demo-section">
+        <h2>Custom Column Spans</h2>
+        <div class="container">
+            <div class="row">
+              <div class="col lg1-4">
+                  <div class="demo-box">Spans columns 2-4</div>
+              </div>
+                <div class="col lg6-12">
+                    <div class="demo-box">Spans columns 6-8</div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <!-- Takes up columns 2-6 (spans 5 columns) -->
+        <div class="col md2-6">
+          <div class="demo-box">This content starts at column 2 and ends at column 6</div>
+        </div>
+
+        <!-- Takes up columns 6-10 (spans 4 columns) -->
+        <div class="col lg6-10">
+          <div class="demo-box">This content starts at column 6 and ends at column 10</div>
+        </div>
+
+        <!-- Takes up columns 10-12 (spans 2 columns) -->
+        <div class="col xl10-12">
+          <div class="demo-box">This content starts at column 10 and ends at column 12</div>
+        </div>
+    </div>
+
+    <div class="demo-section">
+        <h2>Responsive Breakpoints</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col sm12 md6 lg4">
+                    <div class="demo-box">
+                        Full width on small<br>
+                        Half on medium<br>
+                        One-third on large
+                    </div>
+                </div>
+                <div class="col sm12 md6 lg4">
+                    <div class="demo-box">
+                        Full width on small<br>
+                        Half on medium<br>
+                        One-third on large
+                    </div>
+                </div>
+                <div class="col sm12 md12 lg4">
+                    <div class="demo-box">
+                        Full width on small<br>
+                        Full on medium<br>
+                        One-third on large
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../src/grid-system.js"></script>
+    <script>
+        // Initialize the grid system
+        const grid = new GridSystem({
+            columns: 12,
+            gap: 20
+        });
+    </script>
+</body>
+</html>

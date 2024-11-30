@@ -1,0 +1,33 @@
+{
+  "name": "responsive-grid-system",
+  "version": "1.0.0",
+  "description": "A lightweight, modern, and flexible grid system for creating responsive layouts",
+  "main": "src/grid-system.js",
+  "scripts": {
+    "serve": "serve demo"
+  },
+  "keywords": [
+    "grid",
+    "responsive",
+    "layout",
+    "flexbox",
+    "css-grid",
+    "frontend",
+    "ui",
+    "responsive-design",
+    "mobile-first"
+  ],
+  "author": "Haikal Fiqih",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haikallfiqih/responsive-grid-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haikallfiqih/responsive-grid-system/issues"
+  },
+  "homepage": "https://github.com/haikallfiqih/responsive-grid-system#readme",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
