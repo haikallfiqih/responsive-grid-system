@@ -1,7 +1,7 @@
 {
   "name": "@haikallfiqih/responsive-grid-system",
   "version": "1.0.1",
-  "description": "A lightweight, modern, and flexible grid system for creating responsive layouts",
+  "description": "A lightweight, modern, and flexible CSS grid system for creating responsive layouts with vanilla JavaScript and CSS",
   "main": "src/grid-system.js",
   "scripts": {
     "serve": "serve demo"
@@ -15,7 +15,13 @@
     "frontend",
     "ui",
     "responsive-design",
-    "mobile-first"
+    "mobile-first",
+    "css",
+    "css3",
+    "vanilla-css",
+    "vanilla-javascript",
+    "css-framework",
+    "css-library"
   ],
   "author": "Haikal Fiqih",
   "license": "MIT",
